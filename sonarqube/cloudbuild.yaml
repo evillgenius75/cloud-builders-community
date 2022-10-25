@@ -6,9 +6,9 @@ steps:
   - '--build-arg'
   - 'SONARQUBE_SCANNER_CLI_VERSION=4.6.0.2311'
   - '-t'
-  - 'gcr.io/$PROJECT_ID/sonar-scanner:latest'
+  - 'us-central1-docker.pkg.dev/$PROJECT_ID/tools-repo/sonar-scanner:latest'
   - '-t'
-  - 'gcr.io/$PROJECT_ID/sonar-scanner:4.6.0.2311'
+  - 'us-central1-docker.pkg.dev/$PROJECT_ID/tools-repo/sonar-scanner:4.6.0.2311'
   - '.'
 
 images: 
